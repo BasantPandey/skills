@@ -1,0 +1,23 @@
+# Generated quickui output
+ui-designs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+
+# Node (if tooling is added later)
+node_modules/
+npm-debug.log*
+
+# Temp
+*.tmp
+*.log
