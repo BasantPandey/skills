@@ -32,6 +32,8 @@ Each design varies across: Typography · Color & Theme · Motion · Spatial Comp
 - Opens a gallery page in your browser with inline iframe previews
 - Click any design to open it fullscreen
 
+![QuickUI gallery showing 3 design variations — Clean & Minimal, Bold & Vibrant, Dark & Sophisticated](assets/quickui-preview.png)
+
 ## Installation
 
 ### Using `npx skills` (recommended)
