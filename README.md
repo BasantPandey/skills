@@ -36,6 +36,14 @@ Generate a full LinkedIn content kit from a single topic or story. Produces 5 pi
 - Saves to `./linkedin-posts/<timestamp>/post.html`
 - Opens a LinkedIn-styled browser preview with one-click Copy buttons per section
 
+**How it works:**
+
+![LinkedIn skill AI workflow architecture — from /linkedin command to browser-ready content kit](assets/linkedin-workflow.png)
+
+**Preview:**
+
+![LinkedIn Content Kit HTML preview — full post with LinkedIn UI design and Copy buttons](assets/linkedin-preview.png)
+
 ---
 
 ### `/quickui` — Quick UI Design Variations
