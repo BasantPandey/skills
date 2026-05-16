@@ -1,5 +1,7 @@
 # Skills
 
+[![skills.sh](https://skills.sh/b/basantpandey/skills)](https://skills.sh/basantpandey/skills/quickui)
+
 A collection of custom Claude Code skills for accelerating development workflows.
 
 ## Available Skills
