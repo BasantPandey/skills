@@ -34,14 +34,26 @@ Each design varies across: Typography · Color & Theme · Motion · Spatial Comp
 
 ## Installation
 
-Each skill in `skills/` is a standalone Claude Code skill. To install, create a junction/symlink from your Claude skills directory to the skill folder:
+### Using `npx skills` (recommended)
+
+Install any skill from this repo with a single command:
+
+```bash
+npx skills add https://github.com/basantpandey/skills --skill quickui
+```
+
+This installs the `/quickui` skill into your Claude Code skills directory automatically.
+
+### Manual installation
+
+Create a junction/symlink from your Claude skills directory to the skill folder:
 
 **Windows:**
 ```powershell
-cmd /c mklink /J "$env:USERPROFILE\.claude\skills\quickui" "C:\AIProjects\ProjectSkills\skills\quickui"
+cmd /c mklink /J "$env:USERPROFILE\.claude\skills\quickui" "C:\path\to\skills\quickui"
 ```
 
 **macOS / Linux:**
 ```bash
-ln -s /path/to/ProjectSkills/skills/quickui ~/.claude/skills/quickui
+ln -s /path/to/skills/quickui ~/.claude/skills/quickui
 ```
